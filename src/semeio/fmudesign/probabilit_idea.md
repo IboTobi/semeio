@@ -364,15 +364,13 @@ def test_comprehensive_project_analysis():
 
 ## Example from DOT
 
-# DOT: Enhancing Decision Quality
-
 **DOT** is a platform to enhance Decision Quality and provides possibilities to frame decision opportunities and guide teams through a structured decision making process. As one part of the process, DOT will handle decision analysis and provide evaluation, sensitivity analysis to better understand the decision. An important tool in decision making under uncertainty is Monte Carlo Analysis. The usage of **Probabilit** will give DOT a framework to use Monte Carlo Analysis for the decision analysis part. 
 
 Concrete, during a framing session in a structured decision making process, different decisions and uncertainties will be identified. The uncertainties can usually be described through distributions (discrete, continuous). DOT will then provide different methods to structure the decisions and uncertainties in for example influence diagrams, Bayesian belief networks and decision trees. Given this structure and added relationships, Monte Carlo simulation can solve an influence diagram in an efficient way. A research paper describing the idea is described here: 
 
 > Charnes, John & Shenoy, Prakash. (2004). Multi-Stage Monte Carlo Method for Solving Influence Diagrams Using Local Computation. Management Science, 50, 405-. [10.1287/mnsc.1030.0138](https://www.researchgate.net/publication/229431462_Multi-Stage_Monte_Carlo_Method_for_Solving_Influence_Diagrams_Using_Local_Computation)
 
-## Oil Wildcatter Problem
+### Oil Wildcatter Problem
 
 The Oil Wildcatter problem has been added to DOT and decisions and uncertainties have been identified in a framing session. The main uncertainties are: the reserves amount (how many reserves are there - potentially given through a STOIIP?) and if we shoot a seismic, what the seismic will indicate about the reserves. These will impact our decision to drill the reservoir or not. 
 
